@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">OaSystem</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_notice">NoticeActivity</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_date">Date</string>
+    <string name="title_activity_daily">DailyActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_money">MoneyActivity</string>
+    <string name="title_activity_leave">LeaveActivity</string>
+    <string name="title_activity_check">CheckActivity</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_people">PeopleActivity</string>
+    <string name="title_activity_admin">AdminActivity</string>
+    <string name="title_activity_notice_details">NoticeDetailsActivity</string>
+    <string name="title_activity_news_details">NewsDetailsActivity</string>
+    <string name="title_activity_check_leave">CheckLeaveActivity</string>
+    <string name="title_activity_check_money">CheckMoneyActivity</string>
+    <string name="title_activity_leave_details">LeaveDetailsActivity</string>
+    <string name="title_activity_money_details">MoneyDetailsActivity</string>
+    <string name="title_activity_leave_history">LeaveHistoryActivity</string>
+    <string name="title_activity_money_history">MoneyHistoryActivity</string>
+
+    <string name="title_activity_add_news">AddNewsActivity</string>
+    <string name="title_activity_add_notices">AddNoticesActivity</string>
+    <string name="title_activity_user_manager">UserManagerActivity</string>
+    <string name="title_activity_change_user_info">ChangeUserInfoActivity</string>
+    <string name="title_activity_add_user">AddUserActivity</string>
+    <string name="title_activity_add_date">AddDateActivity</string>
+    <string name="title_activity_manager_check">ManagerCheckActivity</string>
+    <string name="title_activity_new_note">NewNoteActivity</string>
+    <string name="title_activity_add_daly">AddDalyActivity</string>
+    <string name="title_activity_exit">ExitActivity</string>
+
+</resources>

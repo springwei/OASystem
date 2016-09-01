@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+        <ImageView
+            android:id="@+id/Return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/return_ico"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:text="手机考勤"
+            android:textColor="@color/white"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+<!--        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></ListView>-->
+<!--        <ImageView
+            android:id="@+id/sign"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/check"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="40dp"/>-->
+        <ImageView
+            android:id="@+id/sign"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/sign"
+            android:layout_centerInParent="true"
+
+           />
+        <TextView
+            android:layout_marginTop="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="#FF0000"
+            android:text="点击图标签到"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/blue">
+       <ImageView
+           android:id="@+id/Return"
+           android:layout_marginTop="5dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:src="@drawable/return_ico"
+           android:layout_centerVertical="true"
+           />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFFFFF"
+            android:text="公告通知"
+            android:textSize="25sp"
+            android:layout_centerInParent="true"/>
+    </RelativeLayout>
+
+
+  <ListView
+      android:id="@+id/notice"
+      android:layout_marginLeft="10dp"
+      android:layout_marginRight="10dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"></ListView>
+  </LinearLayout>

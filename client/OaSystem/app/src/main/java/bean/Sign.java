@@ -1,0 +1,53 @@
+package bean;
+
+/**
+ * Created by lqs on 2016/3/30.
+ */
+public class Sign {
+    private int id;
+    private String user_id;
+    private String address;
+    private String department;
+    private String time;
+
+    public String getUsername() {
+        return username;
+    }
+
+    public void setUsername(String username) {
+        this.username = username;
+    }
+
+    private  String username;
+    public int getId() {
+        return id;
+    }
+    public void setId(int id) {
+        this.id = id;
+    }
+    public String getUser_id() {
+        return user_id;
+    }
+    public void setUser_id(String user_id) {
+        this.user_id = user_id;
+    }
+    public String getAddress() {
+        return address;
+    }
+    public void setAddress(String address) {
+        this.address = address;
+    }
+    public String getDepartment() {
+        return department;
+    }
+    public void setDepartment(String department) {
+        this.department = department;
+    }
+    public String getTime() {
+        return time;
+    }
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+}
